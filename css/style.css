@@ -99,11 +99,11 @@ fieldset button {
 		height: 100%;
 	}
 	.menu-utama, .menu-kanan{
-		height: 900px;
+		height: 980px;
 	}
 	.menu-utama table {
 		width: 100%;
-		font-size: 13px;
+		font-size: 12px;
 	}
 	.navigasi li{
 		float: none;
