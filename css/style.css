@@ -1,0 +1,94 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+}
+
+body {
+	background: grey;
+}
+header {
+	background-color: blue;
+}
+header h2 {
+	font-size: 36px;
+	color: white;
+	padding: 20px;
+}
+.div-utama {
+	max-width:1080px;
+	margin: auto;
+	background-color: white;
+	height: 100%;
+}
+
+.judul {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.navigasi ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: darkblue;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.navigasi li {
+	float: left;
+}
+
+.navigasi li a {
+	color: lightblue;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 20px;
+	display: block;
+}
+
+.navigasi li a:hover{
+	background-color: lightblue;
+	color: white;
+	transition-duration: 2s;
+}
+
+.menu-utama {
+	padding: 10px;
+	float: left;
+	width: 75%;
+	height: 760px;
+}
+ .menu-utama ol {
+	 margin-left: 30px;
+	 margin-bottom: 10px;
+ }
+.menu-kanan {
+	float: left;
+	width: 25%;
+	height: 760px;
+	background-color: lightblue;
+	padding: 10px;
+}
+
+.menu-kanan p {
+	margin-bottom: 10px;
+}
+
+footer {
+	clear: both;
+	background-color: blue;
+	color: white;
+	padding: 10px;
+	text-align:center;
+}
+
+fieldset table {
+	padding: 10px;
+	margin-bottom: 10px;
+}
+fieldset button {
+	margin: 10px;
+}
